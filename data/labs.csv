@@ -1,0 +1,7 @@
+date,test_name,result,unit,reference_range,comments
+2024-01-01,Vitamin D,12,ng/ml,30-100,Deficiency detected. Supplementation and sun exposure recommended.
+2026-01-01,Morning Cortisol,16.5,ug/dl,3.7 - 19.4,Normal range.
+2026-01-01,Zinc,0.70,ug/ml,,Normal.
+2026-01-01,Selenium,110,ng/ml,,Normal.
+2026-01-01,Glucose,92,mg/dl,70-99,Normal.
+2026-01-01,HbA1c,5.4,%,<5.7,Normal.
