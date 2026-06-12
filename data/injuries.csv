@@ -1,3 +1,4 @@
 date,body_region,severity,status,description,source
 2022-10-19,right_shoulder,moderate,active_history,"Tendinosis of the supraspinatus, partial bursal tear (9x9 mm). Biceps and muscle trophism preserved.","MRI right shoulder 2022"
 2026-05-11,rectus_femoris,mild,monitoring,"Reaggravation during soccer (max sprint + kick + landing). Dolor localized, no significant walking limitation.","User report"
+2026-06-08,rectus_femoris,high,active,"Pulled during soccer match. Suspected tear. Awaiting X-ray and doctor visit.","User report"
