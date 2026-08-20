@@ -7,10 +7,14 @@ This document outlines the strategic evolution of the HealthVault system from a 
 *   **Roles:** Define the Architect (Tech) and Librarian (Secretary) personas.
 *   **Data:** Extract history from master documents into structured CSVs.
 
-## Phase 2: Active Ingestion & Integration (Month 2)
-*   **Google Sheets:** Connect local CSVs to Google Sheets for mobile/easy data entry.
-*   **Study Indexing:** Implement a process for scanning `studies/` and extracting metadata using AI.
-*   **Automation:** Basic Python scripts for data validation and normalization.
+## Phase 2: Local-First Web Dashboard & Active Ingestion (Current)
+*   **React Dashboard:** Interactive web UI (Vite + React + Tailwind + Recharts) on port 3002.
+*   **Biomarker Trends & Analytics:** Dynamic charting for lab results, reference range indicators, and history.
+*   **Injury & Recovery Tracker:** Visual timeline of injuries, severity tagging, and recovery notes.
+*   **Strength & Training Progression:** 1RM estimation, volume logging, and workout frequency breakdowns.
+*   **Bidirectional File Persistence:** Vite REST API middleware reading and writing directly to `data/*.csv`.
+*   **Study Document Explorer:** Visual catalog for `studies/MRI`, `studies/Bloodwork`, and `studies/Reports`.
+*   **Workspace Integration:** Unified runner integration (`./wp run health-vault`).
 
 ## Phase 3: Structural Intelligence (Month 3)
 *   **Persistence:** Transition CSVs to a SQLite database for complex querying.
