@@ -1,0 +1,12 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Production build
+dist
+
+# System / IDE
+.DS_Store
+.vscode
+.idea
+*.local
